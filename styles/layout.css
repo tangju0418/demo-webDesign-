@@ -7,14 +7,14 @@ section,header,article,nav{
 }
 body{
     margin:1em 10%;
-    background-image:url(../images/2.jpg);
+    background-image:url(../images/background.gif);
     background-attachment:fixed;
     background-position:top left;
     background-repeat:repeat-x;
     max-width:80em;
 }
 header{
-    background-image:url(../images/3.jpg);
+    background-image:url(../images/guitarist.gif);
     background-repeat:no-repeat;
     background-position:bottom right;
     border-width: .1em;
@@ -22,7 +22,7 @@ header{
     border-bottom-width:0;
 }
 header nav{
-    background-image:url(../images/4.jpg)
+    background-image:url(../images/navbar.gif);
     background-position:bottom left;
     background-repeat:repeat-x;
     border-width: .1em;
@@ -43,7 +43,7 @@ header nav li{
 header nav li a{
     display:block;
     float:left;
-    padding: .5em 2em;
+    padding:.5em 2em;
     border-right: .1em solid;
 }
 article{
@@ -51,11 +51,36 @@ article{
     border-style:solid;
     border-top-width:0;
     padding: 2em 10%;
-    line-height: 1.8em;
+    line-height: .8em;
 }
 article img{
     border-width: .1em;
     border-style:solid;
     outline-width: .1em;
     outline-style:solid;
+}
+
+#about header{
+    background-image:url(../images/lineup.gif);
+}
+#photos header{
+    background-image:url(../images/basshead.gif);
+}
+#live header{
+    background-image:url(../images/bassist.gif);
+}
+#contact header{
+    background-image:url(../images/drummer.gif);
+}
+
+#slideshow{
+    width:150px;
+    height:150px;
+    position:relative;
+    overflow:hidden;
+}
+#preview{
+    position:absolute;
+    border-width:0;
+    outline-width:0;
 }
